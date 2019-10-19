@@ -1,0 +1,9 @@
+[options]
+  force_global_config = true
+
+[[layers]]
+  name = 'lang#python'
+  format_on_save = 1
+
+[[layers]]
+  name = 'git'
