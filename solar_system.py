@@ -11,7 +11,9 @@ def main():
     Start the simulation...
     '''
     print('Simulation...')
-    print(planets.mars.APHELION_KM)
+    print("Aphelion: {}".format(planets.mars.APHELION_KM))
+    print("Perihelion: {}".format(planets.mars.PERIHELION_KM))
+    print("Semi-major axis: {}".format(planets.mars.SEMI_MAJOR_AXIS_KM))
 
 
 if __name__ in '__main__':
