@@ -25,9 +25,10 @@ To use this configuration layer, add following snippet to your custom configurat
 ```toml
 [[layers]]
   name = "lang#python"
+```
+
 language tools
 syntax checking:
-```
 
 checker layer provide syntax checking feature, and for Python it uses flake8 package:
 
